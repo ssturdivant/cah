@@ -5,14 +5,14 @@
 # ruby, etc.
 
 if [ ! -e "${OPENSHIFT_DATA_DIR}setup_completed" ]; then
-${OPENSHIFT_REPO_DIR}/.openshift/bootstrap.sh
+    sh ${OPENSHIFT_REPO_DIR}/.openshift/bootstrap.sh
 fi
 
 source "${OPENSHIFT_REPO_DIR}.openshift/action_hooks/vars"
 export PIP_DOWNLOAD_CACHE="${OPENSHIFT_TMP_DIR}.pip/cache"
 
 if [ ! -d "${OPENSHIFT_VIRTUALENV_DIR}" ]; then
-${OPENSHIFT_DATA_DIR}/bin/virtualenv --system-site-packages --distribute --prompt='(virtenv)' "${OPENSHIFT_VIRTUALENV_DIR}"
+    ${OPENSHIFT_DATA_DIR}/bin/virtualenv --system-site-packages --distribute --prompt='(virtenv)' "${OPENSHIFT_VIRTUALENV_DIR}"
 fi
 
 source "${OPENSHIFT_VIRTUALENV_DIR}bin/activate"
