@@ -25,6 +25,7 @@ cahWampFactory.protocol = CahWampServer
 CahWampService(
     config['websocket_domain'],
     int(config['websocket_port']),
+    config['websocket_interface'],
     "{server_domain}:{server_port}".format(**config),
     cahWampFactory,
     ).setServiceParent(cahService)
@@ -44,7 +45,7 @@ fileResource.putChild('js', jsResource)
 fileResource.indexNames=['index.mustache']
 
 fileServer = server.Site(fileResource)
-internet.TCPServer(int(config['server_proxy_port']), fileServer).setServiceParent(cahService)
+internet.TCPServer(int(config['server_proxy_port']), fileServer, interface=config['server_interface']).setServiceParent(cahService)
 
 ## Define the application
 application = service.Application("CAH")

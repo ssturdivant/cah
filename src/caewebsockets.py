@@ -115,14 +115,15 @@ class CahWampServer(WampServerProtocol):
             pass
 
 class CahWampService(service.Service):
-    def __init__(self, server, port, topicuri, factory):
+    def __init__(self, server, port, interface, topicuri, factory):
         self.server = server
         self.port = port
+        self.interface = interface
         self.topicuri = topicuri
         self.factory = factory
     
     def startService(self):
         Game.register_cah_wamp_client(self.factory)
         Game.set_publish_uri(self.topicuri)
-        listenWS(self.factory)
+        listenWS(self.factory, interface=interface)
         log.msg('Started CAH Websocket server')
