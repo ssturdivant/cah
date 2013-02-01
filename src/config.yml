@@ -8,3 +8,4 @@ websocket_port: 9000
 # Web server configuration
 server_domain: localhost
 server_port: 8765
+server_proxy_port: 8765

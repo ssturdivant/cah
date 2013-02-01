@@ -13,7 +13,8 @@ WEBROOT_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "www")
 
 with open("config.yml") as f:
     config = yaml.load(f)
-    config['admin_password'] = os.getenv('CAH_ADMIN_PASS', config['admin_password'])
+for k in config:
+    config[k] = os.getenv('CAH_' + k.upper(), config[k])
 
 cahService = service.MultiService()
 
@@ -43,7 +44,7 @@ fileResource.putChild('js', jsResource)
 fileResource.indexNames=['index.mustache']
 
 fileServer = server.Site(fileResource)
-internet.TCPServer(config['server_port'], fileServer).setServiceParent(cahService)
+internet.TCPServer(config['server_proxy_port'], fileServer).setServiceParent(cahService)
 
 ## Define the application
 application = service.Application("CAH")

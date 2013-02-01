@@ -13,7 +13,8 @@ from roomsmanager import rooms, get_smallest_game_id, create_new_game, get_or_cr
 
 with open("config.yml") as f:
     config = yaml.load(f)
-    config['admin_password'] = os.getenv('CAH_ADMIN_PASS', config['admin_password'])
+for k in config:
+    config[k] = os.getenv('CAH_' + k.upper(), config[k])
 
 class CahWampServer(WampServerProtocol):
     def __init__(self):
