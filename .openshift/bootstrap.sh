@@ -38,6 +38,7 @@ $OPENSHIFT_DATA_DIR/bin/python setup.py install
 cd $OPENSHIFT_TMP_DIR
 rm -rf ./pip-1.1*
 
+$OPENSHIFT_DATA_DIR/bin/pip install virtualenv
 
 echo "Activating hooks"
 cp -f $OPENSHIFT_REPO_DIR/.openshift/.template_hooks/* $OPENSHIFT_REPO_DIR/.openshift/action_hooks 

@@ -8,7 +8,7 @@ source "${OPENSHIFT_REPO_DIR}.openshift/action_hooks/vars"
 export PIP_DOWNLOAD_CACHE="${OPENSHIFT_TMP_DIR}.pip/cache"
 
 if [ ! -d "${OPENSHIFT_VIRTUALENV_DIR}" ]; then
-virtualenv --system-site-packages --distribute --prompt='(env)' "${OPENSHIFT_VIRTUALENV_DIR}"
+$OPENSHIFT_DATA_DIR/bin/virtualenv --system-site-packages --distribute --prompt='(virtenv)' "${OPENSHIFT_VIRTUALENV_DIR}"
 fi
 
 source "${OPENSHIFT_VIRTUALENV_DIR}/bin/activate"
