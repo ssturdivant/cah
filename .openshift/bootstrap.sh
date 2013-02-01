@@ -40,6 +40,5 @@ rm -rf ./pip-1.1*
 
 $OPENSHIFT_DATA_DIR/bin/pip install virtualenv
 
-echo "Activating hooks"
-cd $OPENSHIFT_DATA_DIR
-touch setup_completed
+echo "Done setting up Python 2.7"
+touch $OPENSHIFT_DATA_DIR/setup_completed
