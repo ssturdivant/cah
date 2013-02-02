@@ -3,11 +3,11 @@ import os
 import yaml
 
 from twisted.application import internet, service
-from twisted.web import static, server, resource
-from autobahn.wamp import WampServerFactory
+from twisted.web import static, server
+from autobahn.resource import WebSocketResource
 
 import pystache
-from caewebsockets import CahWampServer, CahWampService
+from caewebsockets import CahServerFactory
 
 WEBROOT_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "www")
 
@@ -16,22 +16,9 @@ with open("config.yml") as f:
 for k in config:
     config[k] = os.getenv('CAH_' + k.upper(), config[k])
 
-cahService = service.MultiService()
-
-## Set up the websocket server
-serverURI = "ws://{websocket_domain}:{websocket_port}".format(**config)
-cahWampFactory = WampServerFactory(serverURI, debug=False, debugWamp=True)
-cahWampFactory.protocol = CahWampServer
-CahWampService(
-    config['websocket_domain'],
-    int(config['websocket_port']),
-    config['websocket_interface'],
-    "{server_domain}:{server_port}".format(**config),
-    cahWampFactory,
-    ).setServiceParent(cahService)
-
 ## Set up the web server
 fileResource = static.File(os.path.join(WEBROOT_DIR))
+fileResource.indexNames=['index.mustache']
 
 # This is the ugly bit--we need to construct a resource tree to get our templated .js in here
 jsResource = static.File(os.path.join(WEBROOT_DIR, "js"))
@@ -42,11 +29,18 @@ with open(os.path.join(WEBROOT_DIR, "js", "init.mustache")) as f:
         )
 fileResource.putChild('js', jsResource)
 
-fileResource.indexNames=['index.mustache']
+# Serve up websockets
+serverURI = "ws://{websocket_domain}:{websocket_port}".format(**config)
+cahWampFactory = CahServerFactory(serverURI, "{server_domain}:{server_port}".format(**config), debug=True, debugWamp=True, debugCodePaths=True, debugApp=True)
+wsResource = WebSocketResource(cahWampFactory)
+fileResource.putChild('ws', wsResource)
 
 fileServer = server.Site(fileResource)
-internet.TCPServer(int(config['server_proxy_port']), fileServer, interface=config['server_interface']).setServiceParent(cahService)
 
 ## Define the application
 application = service.Application("CAH")
-cahService.setServiceParent(application)
+internet.TCPServer(
+    int(config['server_proxy_port']),
+    fileServer,
+    interface=config['server_interface']
+).setServiceParent(application)

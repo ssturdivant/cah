@@ -11,7 +11,7 @@ from utils import roundrobin
 
 ABS_PATH = os.path.dirname(os.path.realpath(__file__))
 
-publish = "http://{}/{}#{}"
+publish = "http://{}/ws/{}#{}"
 
 def find(seq, f):
     """Return first item in sequence where f(item) == True."""
