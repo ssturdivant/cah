@@ -32,7 +32,7 @@ fileResource.putChild('js', jsResource)
 # Serve up websockets
 serverURI = "ws://{websocket_domain}:{websocket_port}".format(**config)
 cahWampFactory = CahServerFactory(serverURI, "{server_domain}:{server_port}".format(**config), debug=True, debugWamp=True, debugCodePaths=True, debugApp=True)
-cahWampFactory.setSessionParameters(externalPort = config['websocket_port'])
+cahWampFactory.externalPort = int(config['server_proxy_port'])
 wsResource = WebSocketResource(cahWampFactory)
 fileResource.putChild('ws', wsResource)
 
