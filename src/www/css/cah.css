@@ -205,7 +205,7 @@ ul li {
 
 .czar {
     border: 2px solid grey;
-    border-radius: 5px;
+    border-radius: 5px;    
 }
 
 .wrapper {
@@ -325,4 +325,7 @@ ul li {
     color: black;
     border-radius: 3px;
 
+}
+.true {
+   color: blue;
 }

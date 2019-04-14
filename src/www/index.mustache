@@ -29,7 +29,7 @@
                     <span class="kick_user" username="{{username}}">X</span>
                     <span class="score">{{score}}</span>
                     {{username}}
-                    {{#czar}}- Czar{{/czar}}
+                    {{#czar}}- <u>Czar</u>{{/czar}}
                     {{#afk}}- AFK {{/afk}}
                 </li>
         {{/users}}
@@ -78,7 +78,7 @@
     </script>
 
     <script id="t_header" type="text/html">
-            <input placeholder="Username..." class="username"/>
+            <input placeholder="Username..." maxlength="16" class="username"/>
             <input class="login" type="submit" value="Join"/>
             <button class="start {{#game_running}}hide{{/game_running}}">Start Game</button>
             <input type="checkbox" class="notify" checked="true">Notify Sound</input>
@@ -136,6 +136,11 @@
             </span>
         </div>
     </script>
+	<script type="text/javascript">
+		window.onbeforeunload = function(e) {
+			return 'Are you sure you want to leave?';
+		}
+	</script>
 
 </head>
 <body>

@@ -18,7 +18,37 @@
   active: true
   base: false
   tag: X2
-- 
+-
+  name: The Third Expansion
+  active: true
+  base: false
+  tag: X3
+-
+  name: The Fourth Expansion
+  active: true
+  base: false
+  tag: X4
+-
+  name: The Fifth Expansion
+  active: true
+  base: false
+  tag: X5
+-
+  name: Box Expansion
+  active: true 
+  base: false
+  tag: BOX
+-
+  name: 90s Expansion
+  active: true 
+  base: false
+  tag: 90S
+-
+  name: Misprint Replacement Bonus Cards
+  active: true
+  base: false
+  tag: MIS 
+-
   name: Canadian
   active: false
   base: false
@@ -35,7 +65,7 @@
   tag: BT
 - 
   name: 2012 Holiday Pack
-  active: false
+  active: true
   base: false
   tag: XMAS
 - 
@@ -63,3 +93,43 @@
   active: true
   base: false
   tag: PAXP13
+-
+  name: Crabs Adjust Humidity Volume 1
+  active: true 
+  base: false
+  tag: CRABSX1
+-
+  name: Crabs Adjust Humidity Volume 2
+  active: true
+  base: false
+  tag: CRABSX2
+-
+  name: Crabs Adjust Humidity Volume 3
+  active: true
+  base: false
+  tag: CRABSX3
+-
+  name: Crabs Adjust Humidity Volume 4
+  active: true
+  base: false
+  tag: CRABSX4
+-
+  name: Crabs Adjust Humidity Volume 5
+  active: true
+  base: false
+  tag: CRABSX5
+-
+  name: Q0Expansion
+  active: true
+  base: false
+  tag: Q0
+-
+  name: Rediculously Stupid
+  active: true
+  base: false
+  tag: RS
+-
+  name: JSHAPS Cards
+  active: true
+  base: false
+  tag: JSHAPS

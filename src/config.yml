@@ -1,12 +1,12 @@
 # Administrator password
-admin_password: asdf
+admin_password: quill
 
 # Websocket configuration
-websocket_domain: localhost
+websocket_domain: ipv4.blackjack.literallyshit.net
 websocket_port: 8765
 
 # Web server configuration
-server_domain: localhost
+server_domain: ipv4.blackjack.literallyshit.net
 server_port: 8765
 server_proxy_port: 8765
 server_interface: ""

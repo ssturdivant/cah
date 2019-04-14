@@ -166,6 +166,47 @@ X3:
   - "Having problems with {}? Try {}!"
   - "As part of his contract, Prince won’t perform without {} in his dressing room."
   - "Listen, son. If you want to get involved with {}, I won’t stop you. Just steer clear of {}."
+X4:
+  - The Japanese have developed a smaller, more efficient version of {}.
+  - Alright, bros. Our frat house is condemned, and all the hot slampieces are over at Gamma Phi. That time has come to commence Operation {}.
+  - This is the prime of my life. I’m young, hot, and full of {}.
+  - I’m pretty sure I’m high right now, because I’m absolutely mesmerized by {}.
+  - It lurks in the night. It hungers for flesh. This summer, no one is safe from {}.
+  - If you can’t handle {}, you’d better stay away from {}.
+  - Forget everything you know about {}, because now we’ve supercharged it with {}!
+  - Honey, I have a new role-play I want to try tonight! You can be {}, and I’ll be {}.
+  - This year’s hottest album is "{}" by {}.
+  - Every step towards {} gets me a little bit closer to {}.
+  - Oprah’s book of the month is "{} For {}, A Story of Hope."
+  - Do not fuck with me! I am literally {} right now.
+  - 2 AM in the city that never sleeps. The door swings open and she walks in, legs up to here. Something in her eyes tells me she’s looking for {}.
+  - As king, how will I keep the peasants in line?
+  - Adventure. Romance. {}. From Paramount Pictures, "{}."
+  - I am become {}, destroyer of {}!
+X5:
+  - And today's soup is Cream of {}.
+  - WHOOO! God damn I love {}!
+  - Do you lack energy? Does it sometimes feel like the whole world is {}? Zoloft®.
+  - Hi, this is Jim from accounting. We noticed a $1,200 charge labeled "{}". Can you explain?
+  - Well if {} is good enough for {}, it's good enough for me.
+  - Yo'mama so fat she {}!
+  - What killed my boner?
+  - Don't forget! Beginning this week, Casual Friday will officially become "{} Friday".
+  - In his farewell address, George Washington famously warned Americans about the dangers of {}.
+  - Having the worst day EVER. #{}
+  - Get ready for the movie of the summer! One cop plays by the book. The other's only interested in one thing, {}.
+  - What's making things awkward in the sauna?
+  - Life's pretty tough in the fast lane. That's why I never leave the house without {}.
+  - Patient presents with {}. Likely a result of {}.
+  - Hi MTV! My name is Kendra, I live in Malibu, I'm into {}, and I love to have a good time.
+  - Help me doctor, I've got {} in my butt!
+  - Why am I broke?
+  - I don't mean to brag, but they call me the Michael Jordan of {}.
+  - Heed my voice, mortals! I am the god of {}, and I will not tolerate {}!
+  - Here at the Academy for Gifted Children, we allow students to explore {} at their own pace.
+  - Well what do you have to say for yourself, Casey? This is the third time you've been sent to the principal's office for {}.
+  - In his new action comedy, Jackie Chan must fend off ninjas while also dealing with {}.
+  - Do the Dew® with our most extreme flavor yet! Get ready for Mountain Dew {}!
 CAN:
   - O Canada, we stand on guard for {}.
   - Air Canada guidelines now prohibit {} on airplanes.
@@ -180,10 +221,24 @@ XMAS:
   - Every Christmas, my uncle gets drunk and tells the story about {}.
   - What keeps me warm during the cold, cold winter?
   - After blacking out during New Year's Eve, I was awoken by {}.
+BOX:
+  - Why can't I sleep at night?
+  
+90S:
+  - Believe it or not Jim Carrey can do a dead-on impression of {}.
+  - How did Stella get her groove back?
+  - I'm a bitch, I'm a lover, I'm a child, I'm {}.
+  - It's Morphin' Time! Mastodon! Pterodactyl! Triceratops! Sabertooth Tiger! {}!
+  - Siskel and Ebert have panned {} as "poorly conceived" and "sloppily executed."
+  - "Tonight on SNICK: Are You Afriad of {}?"
+  - "Up next on Nickelodeon: Clarissa Explains {}."
 
+MIS:
+  - Daddy, Why is Mommy Crying?
+  
 # Created by the /r/MLPLounge community
 MLP:
-  - And that's how Equestria was made!
+  - "{}: and that's how Equestria was made!"
   - Big Mac sleeps soundly whenever {} is with him.
   - "{} has won the national Equestrian award for {}."
   - "{} is best pony."
@@ -214,13 +269,14 @@ MLP:
   - Giggle at {}!
   - I never knew what {} could be, until you all shared its {} with me.
   - I'd like to be {}.
-  - In a fit of rage, Princess Celestia sent {} to the {} for {}.
+  - In a fit of rage, Princess {} sent {} to the {} for {}.
+  - In a fit of rage, Princess Celestia sent Luna to the moon again for {}.
   - Once upon a time, the land of Equestria was ruled by {} and {}.
   - Ponyville is widely known for {}.
   - Ponyville was shocked to discover {} in Fluttershy's shed.
   - Prince Blueblood's cutie mark represents {}.
   - Rainbow Dash has always wanted {}.
-  - Rainbow Dash is the only pony in all of Equestria who can {}.
+  - Rainbow Dash is the only pony in all of Equestria who can do {}.
   - Rainbow Dash received a concussion after flying into {}.
   - Rarity has a long forgotten line of clothing inspired by {}.
   - Rarity was supposed to have a song about {}, but it was cut.
@@ -234,8 +290,8 @@ MLP:
   - The national anthem of Equestria is {}.
   - The only way to get Opal in the bath is with {}.
   - The worst mishap caused by Princess Cadance was when she made {} and {} fall in love.
-  - To much controversy, Princess Celestia made {} illegal.
-  #- Today, Mayor Mare announced her official campaign position on {} and {}. No pony was the least bit surprised.
+  - After much controversy, Princess Celestia made {} illegal.
+  - Today, Mayor Mare announced her official campaign position on {} and {}. No pony was the least bit surprised.
   - Twilight got bored with the magic of friendship, and now studies the magic of {}.
   - Twilight Sparkle owns far more books on {} than she'd like to admit.
   - When Luna got to the moon, she was greeted with {}.
@@ -261,14 +317,14 @@ BT:
   - Beep Beep Beep Beep Beep, it just means {} is deep!
   - BerryTube was never the same after {}
   - BerryTube will eventually be shut down after a mishap with {} and {}.
-  - "BerryTube: Home of {} and {}."
+  - "BerryTube: Home of {}."
   - BerryTube. 2 days without {}.
   - Cades' secret intention for BerryTube was {}.
   - "Cast Trailer: {} like {}."
   - Drink on {}.
   - Everybody's gay for {}.
   - Everypony now filters to {}.
-  - Hasbro has discovered BerryTube, but surprisingly has only killed {}.
+#  - Hasbro has discovered BerryTube, but surprisingly has only killed {}.
   - I have extra {} stashed all over Ponyville, in case of {} emergency.
   - Install chat emotes so you can see {}.
   - MLP PR0 360 N0SC0P3 {} L33T N0 N00BZ.
@@ -288,6 +344,58 @@ BT:
   - Braeburn is actually gay for {} .
   - I did not use "h4x", I legitimately {}!
   - Put {} in the air.
+  - "You have been kicked: "
+
+# Rediculously Stupid
+RS:
+  - "{} 2012."
+  - "{} and {} are the new hot couple."
+  - "{} Game of the Year Edition"
+  - "{} ruined many people's childhood."
+#  - Dustin Browser demands more {} in StarCraft©.
+  - "Grand Theft Auto™: {}"
+  - "I never thought {} would be so enjoyable."
+  - "I whip my {} back and forth."
+  - "I wouldn't fuck {} with {}'s dick."
+  - "I've got the whole world in my {}."
+  - "In a news conference, Obama pulled out {}, to everyone's surprise."
+  - "In his next movie, Will Smith saves the world from {}."
+  - "In his second term, Obama will rid America of {}."
+  - "In the future, {} will fuel our cars."
+  - "In the next episode, SpongeBob gets introduced to {}."
+  - "In the next Punch Out!!, {} will be the secret final boss"
+  - "Instead of playing Cards Against Humanity, you could be {}."
+#  - "Justin Beiber's new song is all about {}."
+#  - "Keith Richards enjoys {} on his food."
+  - "Lady Gaga has revealed her new dress will be made of {}."
+  - "My life for {}!"
+  - "Nights filled with {}."
+#  - "One does not simply walk into {}."
+  - "One does not simply {} into {}."
+  - "Plan a three course meal: {} {} & {}"
+  - "Praise {}."
+  - "Tastes like {}."
+  - "The lion, the witch, and {}."
+  - "The new fad diet is all about making people do {} and eat {}."
+  - "The next Assassin's Creed game will take place in {}."
+  - "The next pokemone will combine {} and {}."
+  - "The victim was found with {}."
+  - "Welcome to my secret lair on {}."
+  - "What can you always find in between the couch cushions."
+  - "What is Curious George so curious about?"
+  - "What is Japan's national pasttime?"
+  - "What is literally worse than hitler?"
+  - "What is love without {}?"
+  - "What is the answer to life's question?"
+  - "What is the next big sideshow attraction?"
+  - "What is the next great Kickstarter project?"
+  - "What was going through Osama Bin Laden's head before he died?"
+#  - "What will Xyzzy take over the world with??
+  - "When North Korea gets {}, it will be the end of the world."
+  - "When short on money, you can always {}."
+  - "Who is GLaDOS's next test subject?"
+  - "Who let the dogs out?"
+  - "Who needs college when you have {}?"
 
 # Created by the Very Serious community
 VS:
@@ -301,6 +409,8 @@ VS:
   - We need to talk about your whole gallon of {}.
   - Clean ALL the {}.
   - "{} was banned from tinychat because of {}."
+  - "{}? FRY. EYES."
+  - A mod war about {} occurred during {}.
   - "{} for president!"
   - I did {}, like a fucking adult.
   - Fuck you, I'm {}.
@@ -337,11 +447,12 @@ VS:
   - Stop, drop, and {}.
   - Think before you {}.
   - The hills are alive with {} of {}.
+  - "{} For president!"
 # Created by Marminator and others in cah.berrytube.tv
 MARM:
   - Marminator's next troll video cuts {} into {}.
   - "{}. It could happen, only on The Hub."
-  - Arborus died doing what he loved {}.
+  - Arborus died doing what he loved, {}.
   - "There are no brakes on the {} train."
 #Pax East 2013 Expansion Set 
 PAXE13:
@@ -353,10 +464,253 @@ PAXE13:
   - "Press [down arrow] [down arrow] [left arrow] [right arrow] [B] to unleash {}."
 #Pax Prime 2013 Expansion Set 
 PAXP13:
-  - "No Enforcer wants the manage the panel on {}."
+  - "No Con Enforcer wants to manage the panel on {}."
   - "The most controversial game at PAX this year is an 8-bit indie platformer about {}."
   - "{}: Achievement unlocked."
   - "In the new DLC for Mass Effect, Shepard must save the galaxy from {}."
   - "What made Spock cry?"
   - "There was a riot at the Gearbox panel when they gave the attendees {}."
   - "What's the latest bullshit that's troubling this quaint fantasy town?"
+
+#Crabs Adjust Humidity Volume 1
+CRABSX1:
+  - "{}: Just sayin."
+  - "{}: not even once."
+  - "A wild {} appears! You used {}! It's super effective!"
+  - According to a new UN treaty, {} now qualifies as a weapon of mass destruction.
+  - "Ever since 'the incident,' every time I close my eyes, I still see {}."
+  - "Gentleman, I'm sure you're wondering why I asked you here this evening. It's a long story, but it all began with {}."
+  - How did I get this restraining order?
+  - How did I hurt my back?
+  - How did my grandparents make it through the Great Depression?
+  - I am become {}, the destroyer of worlds.
+  - I love the smell of {} in the morning.
+  - I was once sent to the HR department for an incident involving {}, {}, and (allegedly) {}.
+  - I'm gonna go build my own theme park! With {}! And {}!
+  - I'm so hungry, I could eat {}.
+  - If you want a picture of the future, imagine a boot stamping on {}--forever.
+  - In a move that has Hollywood insiders baffled, the producers of American Idol have decided to replace host Ryan Seacrest with {}.
+  - In my opinion, {} is grounds for justifiable homicide.
+  - It took seven years in a remote Tibetan monastery, but I finally learned the art of {}.
+  - Like Midas reborn, everything she touches turns to {}.
+  - "Oh my God! They killed {}! You bastards!"
+  - PornHub.com's single most popular video features {} and {}.
+  - So then he says, "If you want to make this relationship work, you need to give up {} and {}." As.  If.
+  - Thanks to {}, I now have a crippling fear of {}.
+  - The best part of waking up is {}.
+  - "The last three items on my bucket list:"
+  - "Three bullet points from my OKCupid® profile: {}, {}, and, (most importantly) {}."
+  - "Tonight on 'My Super Sweet 16,' Stephani's parents give her {}."
+  - Tonight on "Supernatural," Sam and Dean are forced to confront {} using only {}.
+  - "What do we want?  {}! When do we want it?  Now!"
+  - What was one of the rejected flavors for Bertie Bott's Every Flavour Beans™?
+  - When I'm dating somebody, I can overlook {} and {}, but {} is a deal-breaker.
+  - "Why won't they let me in Chuck E. Cheese's® anymore?"
+  - "William Shatner's shocking new autobiography is titled {}: The Final Frontier." 
+
+#Crabs Adjust Humidity Volume 2
+CRABSX2:
+  - "{}: it's magically delicious."
+  - "{}? That's what she said."
+  - "You have my sword. And you have my bow. And my {}!"
+  - A new Russian dash-cam video shows {}, right there in the middle of the street!
+  - An ounce of {} is worth a pound of {}.
+  - Apple® has announced a new device that promises to revolutionize the way we think about {}.
+  - Audiences at Sundance were traumatized by Lars von Trier's controversial new film, "{}."
+  - Bentley's® latest ultra-high-end luxury sedan comes complete with {}, {} and {}.
+  - Dear Dan Savage, Please help.  I am unable to achieve orgasm without {}.
+  - "Dear, your father and I found {} and {} in your bedroom. I'm shocked, and frankly just a little disappointed."
+  - Experts say that without careful management and conservation, {} will disappear within our lifetimes.
+  - From the people who brought you Sharktopus and Sharknado, Syfy's® next horror film combines sharks with {}.
+  - Having abandoned his pleas for a return to the gold standard, Ron Paul is now promoting a {}-based economy.
+  - Hey man, you gonna come check out my show tonight?  My new band is called "{}."
+  - I don't care what people say, {} is not a crime.
+  - I got some strange looks in the checkout line when the cashier noticed {}, {} and {} in my cart.
+  - I have to admit... it took me a while to agree to it, but incorporating {} into our wedding ceremony is a decision I will never regret.
+  - I quit my job as a bartender the night some jackass left me {} as a tip.
+  - "I think I need to take Fluffums to puppy training: he has this terrible habit of {}."
+  - I wish it were something simple--like peanuts or shellfish--but my doctor tells me I'm actually allergic to {}.
+  - If people wouldn't be so quick to judge, I would give {} to the person on my left in a heartbeat.
+  - Michelle Obama outraged conservatives when she implied that {} maybe wasn't such a bad thing.
+  - My tour of the White House radically escalated when Secret Service caught a glimpse of {} in my bag.
+  - Netflix's® new original series is a sitcom based around {} and {}.
+  - "Now that he has retired, Pope Benedict can finally devote time to his true passion: {}."
+  - Oh, so you think you're too good for us now, little "Miss {}!"
+  - "The NSA wants to talk to me about an email I sent containing these key phrases: {}, {} and {}"
+  - "WANTED: a clean, well-lit place for {}."
+  - What I gotta give my Boo to get outta the doghouse?
+  - When I've seriously fucked up and need to make amends, what can I give my significant other to show them I am truly remorseful?
+  - When you play the Game Of {}, you win or you die.
+  - Why won't anyone sit with me?
+  - Yea, though I walk through the valley of {}, I will fear no {}.
+
+#Crabs Adjust Humidity Volume 3
+CRABSX3:
+  - "{}, just for a second.  Just to see how it feels."
+  - "{}: Ain't nobody got time for that!"
+  - "{}: I volunteer as tribute!"
+  - "{}: Provided by the management for your protection."
+  - "{}: Your ideas are intriguing to me and I wish to subscribe to your newsletter."
+  - Before I got laid off, I never pictured a career in {}.
+  - Good news, everyone! I'm giving a TED Talk on the subject of how {} will transform {}.
+  - How did I get through college?
+  - How did I spend my inheritance?
+  - I do declare, in times of distress I have always relied on {}.
+  - I do wish the newspapers hadn't mentioned {} in grandpa's obituary.
+  - I have this recurring dream where I'm {}, and I'm giving {} to {}.
+  - I've designed a spaceship powered by the energy released when you combine {} and {}.
+  - In Valhalla, it is said that all brave warriors are given {}.
+  - Old Willy used to be just like you or me, before {} got ahold of him.
+  - Rumor is, Kim Jong-un is executing prisoners with {}.
+  - The night before a blizzard, always stock up on {} and {}.
+  - This bottle of 1961 Château Cheval Blanc has notes of {} and {}.
+  - This film has been rated "NC-17" for graphic depictions of {} and {}.
+  - "Topping this week's non-fiction best-sellers: '{} : the art of living with {}.'"
+  - Utah is considering the legalization of {}.
+  - What do I have rotting away in a storage unit?
+  - What do I have rotting away in a storage unit?
+  - What made me this way?
+  - What really gave Superman his powers?
+  - What should I be for Halloween?
+  - What will they carve on my tombstone?
+  - What's this town's best-kept secret?
+  - While officially still frowned on, {} is now permitted in the U.S. armed forces.
+  - While officially still frowned on, {} is now permitted in the US armed forces.
+  - Who will be first against the wall when the revolution comes?
+  - Who's got {}, {}, and two thumbs?  This guy!
+  - Who's really to blame?
+  - "Yes, it is I, the world's most dangerous supervillain: Baron Von {}!"
+  
+#Crabs Adjust Humidity Volume 4
+CRABSX4:
+  - "{}, you da real MVP."
+  - "{}: boil 'em, mash 'em, stick 'em in a stew!"
+  - "{}: Just another way that God shows us he loves us."
+  - "{}: Just girly things."
+  - 9-1-1, what's your emergency?
+  - "Ancient Chinese proverb say: {} is just {} without {}."
+  - Bowing to years of pressure, the Washington Redskins have officially been renamed the Washington {}.
+  - "Coming soon from Pixar: '{}'"
+  - During the lunch meeting, we were shocked to hear the boss reveal her obsession with {}.
+  - "From the producers of Shark Week... Coming this fall, {} Week."
+  - Fuddruckers® is secretly testing a burger made with {}.
+  - Go-Go-Gadget {}!
+  - "I am {}. I speak for {}."
+  - If laughter is the best medicine, the second best is {}.
+  - If you wanna be my lover, you gotta get with {}.
+  - In a groundbreaking experiment, {} has given birth to {}.
+  - In a new novel by Nicholas Sparks, a young girl tragically falls in love with {}.
+  - In his final interview, Robin Williams discussed his private battle with {}.
+  - My psychic warns that my future is filled with {}.
+  - "Ooooooohh yeah, baby you know what I like. Gimmie {}."
+  - "Scientists have discovered the true cause of autism: {}."
+  - Sweet, I just got a Groupon for {}.
+  - Thank you Mario! But {} is in another castle!
+  - The restaurant was nice, but I was surprised to see {} on the menu.
+  - The road to hell is paved with {}.
+  - There's a new anime about four magical high school students and their adventures with {}.
+  - Today, Amazon.com® received a patent on {}.
+  - "Ultimate Deathmatch: {} vs. {}."
+  - What exactly is up my ass?
+  - What's my safe word?
+  - You got your {} in my {}!
+  - You people are sick! There's nothing funny about {}.
+  
+#Crabs Adjust Humidity Volume 5
+CRABSX5:
+  - "{} is many things to many people, as you will see and learn."
+  - "{}: It even makes its own gravy!"
+  - "{}: My body is ready."
+  - "{}: The struggle is real."
+  - "{}: Wake up sheeple!"
+  - "{} Spice was one of the lesser-known Spice Girls."
+  - And behold, the fifth seal opened, and there was {} and with it came {}.
+  - As a staunch libertarian, I believe the only role for government is {}.
+  - Baby I'm {} on the streets, {} in the sheets.
+  - "Code Three, request backup! I'm surrounded by {}!"
+  - Could a brother get {} up in this bitch?
+  - "Forget Fifty Shades of Grey... Give me Fifty Shades of {}!"
+  - I never karaoke, because I always end up getting drunk and singing a song about {}.
+  - I'm constantly confusing {} and {}.
+  - I'm finally writing that book, it's titled "Zen and the Art of {}."
+  - "Instructions unclear: dick stuck in {}."
+  - It's all about {} - no {}.
+  - "Let it go! Let it go! {} never bothered me anyway..."
+  - My therapist says I have an unhealthy attitude about {}.
+  - "Next on Adult Swim™: The Adventures of {} and {}."
+  - Thank you Alex, I'll take {} for 800.
+  - Turn down for what?
+  - What really brings out the child in me?
+  - What would you do for a Klondike® Bar?
+  - "Whatever else may change, one thing is certain: you can't unfuck {}."
+  - When I was young, the only thing that kept me off the streets was {}.
+  - Why do I need feminism?
+  - Why is Jon Stewart really retiring?
+  - Why so salty?
+  - "Yo bro, you tried {}? Shit's straight fire."
+  - "You kids with your fancy degrees... They don't teach ya' nothin' 'bout {} in school."
+
+#Cards added by Q0
+Q0:
+  - "Today on Berrytube I earned an achivement in: {}."
+  - "I was playing TF2 with {} while {}"
+  - "Stop. Drop. and {}."
+  - "I couldn't stop thinking of {} while I was {}."
+  - "My goal for today is to complete {}"
+  - "Everything was fine until Q0 played {}"
+  - "Arborus: NSFW: http://www.{}.com"
+  - "Entering the Konami code unleashed {}."
+  - "Our greatest invention is {}."
+  - "Once I saw {} I couldn't stop {}."
+  - "Zecora gave Twilight a bottle of {} to drink."
+  - "Salculd is actually {}."
+  - "I stopped playing {} because of all the {}."
+  - "By day I'm just your average {} themed super hero, but night I'm Dr. {}!"
+  - "{}? Oh, yeah, I could get my mouth around that."
+  - "{} ruined the fandom."
+  - "{} fucking {}. Now that's hot."
+  - "{}, by Bad Dragon™"
+  - "I downloaded so much {} porn."
+  - "The video was skipped because of {}"
+  - "My Experience with {} was enhanced with {}."
+  - "To improve LineMonkey's wheelchair, we added {}."
+  - "Friendship is {}."
+  - "As a collaborate coding project Toast and Marm combined {} with {}"
+  - "Everything was going fine until we ran out of {}."
+  - "I got an achivement for {}"
+  - "Happy {} DigitalVagrant!"
+  - "The night was going fine until we saw {} on TinyChat."
+  - "Tonight's theme is "
+  - "The Titanic was actually sank by "
+  - "It's {} theme on TinyChat tonight."
+  - "I set {} as my custom squee."
+  - "Toss four cards and pick the best combo: {} {} {} {} ."
+  - "Praise {} Jesus!"
+  - "Twitch plays "
+  - "Now playing: {} - {}"
+  - "Instead of kicking, Q0 now {} to the users."
+  - "{} is ruining Berrytube."
+  - "{} in MY vagina? It's more likely then you think!"
+  - "After EFNW we went to Denny's and ate "
+  - "Instead of booze we drank "
+  - "BerryTube: {}, {} and {}"
+#  - "Next on sehro Sunday "
+  - "Every morning at EFNW I had {} for breakfest"
+  - "The MLP fandom finally died because of "
+  - "Rarity finally had sex with Spike when he offered her "
+  - "{}: 2014 Game of the Year"
+  - "Valve finally revealed Half-Life 3 is actually a {} simulator with {}."
+  - "<Salculd>: {} aren't supposed to go in your anus"
+  - "To better appeal to the brony fandom, Hasbro finally released {} plushies with {}"
+  - "The continuing adventures of {} and his trusty sidekick {}"
+  - "{} makes great lube."
+  - "I {} everytime I masturbate."
+  - "It's too late. You've had {} inside of you all along."
+  - "Over the years, the Crusaders' clubhouse was used for {}, {} and {}"
+  - "The queen recently implemented {} and we're rather quite well off I say"
+  - "When the {} is just right."
+  - "Apple recently added {} to their phones."
+  - "Excuse me cis shitlord, did you just assume my gender?! I identify as a {}!"
+  - "{}, Quality."
+  - "Son of a Bitch, {}!"
+  - "{} makes me cum instantly."
