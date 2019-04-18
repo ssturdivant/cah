@@ -1,12 +1,12 @@
 # Administrator password
-admin_password: quill
+admin_password: <changeme>
 
 # Websocket configuration
-websocket_domain: ipv4.blackjack.literallyshit.net
+websocket_domain: <changeme>
 websocket_port: 8765
 
 # Web server configuration
-server_domain: ipv4.blackjack.literallyshit.net
+server_domain: <changeme>
 server_port: 8765
 server_proxy_port: 8765
 server_interface: ""
