@@ -8,6 +8,7 @@ import yaml
 from twisted.python import log
 
 from utils import roundrobin, frozendict
+from cardset import Cardset
 
 ABS_PATH = os.path.dirname(os.path.realpath(__file__))
 
@@ -19,9 +20,8 @@ class Game(object):
         self.game_id = game_id
         self._empty_game_callback = empty_game_callback
 
-        self._black_cards = None
-        self._white_cards = None
-        self.refresh_cards()
+        self.cardset = Cardset(os.path.join(ABS_PATH, "data"))
+        self.cardset.refresh_cards()
 
         self._state = State()
 
@@ -36,32 +36,6 @@ class Game(object):
     @staticmethod
     def set_publish_uri(publish_uri):
         Game._publish_uri = publish_uri
-
-    # TODO: This shouldn't hit disk during unit tests, probably move this out into a separate file cardmanager or something
-    def refresh_cards(self):
-        with open(os.path.join(ABS_PATH, "data/cardsets.yml")) as f:
-            all_cardsets = yaml.load(f)
-            # TODO: on room creation, allow this list to be edited
-        current_sets = [s['tag'] for s in all_cardsets if s['active']]
-
-        def filter_cards(from_cards):
-            to_cards = []
-            for (s, newcards) in ((s, from_cards.get(s, [])) for s in current_sets):
-                for c in newcards:
-                    to_cards.append({"tag": s, "text": c})
-            for (id, c) in enumerate(to_cards):
-                c['card_id'] = id
-            return to_cards
-
-        with open(os.path.join(ABS_PATH, "data/black_cards.yml")) as f:
-            self._black_cards = filter_cards(yaml.load(f))
-        for c in self._black_cards:
-            c['num_white_cards'] = max(1, c['text'].count("{}"))
-        self._black_cards = map(frozendict, self._black_cards)
-
-        with open(os.path.join(ABS_PATH, "data/white_cards.yml")) as f:
-            self._white_cards = filter_cards(yaml.load(f))
-        self._white_cards = map(frozendict, self._white_cards)
 
     def add_user(self, username, session):
         if self._get_user(username):
@@ -121,7 +95,7 @@ class Game(object):
             self._state.round_timer.cancel()
         except:
             pass
-        self._state = State(self._black_cards, self._white_cards)
+        self._state = State(self.cardset.black_cards, self.cardset.white_cards)
         for user in self.users:
             user.reset()
         self._start_round()
@@ -434,10 +408,13 @@ class User(object):
 class State(object):
     def __init__(self, black_cards=None, white_cards=None):
         self.step = "no_game"
+        self.available_white_cards = []
+        self.available_black_cards = []
         if white_cards:
-            self.available_white_cards = set(copy.deepcopy(white_cards))
+            self.available_white_cards = set(frozendict(card) for card in white_cards)
         if black_cards:
-            self.available_black_cards = set(copy.deepcopy(black_cards))
+            self.available_black_cards = set(frozendict(card) for card in black_cards)
+        log.msg("Black cards: {}, white cards: {}".format(len(self.available_black_cards), len(self.available_white_cards)))
         self.winning_score = 6
         self.round_length = 90
         self.black_card = None
