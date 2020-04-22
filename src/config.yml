@@ -1,12 +1,12 @@
 # Administrator password
-admin_password: <changeme>
+admin_password: 12345
 
 # Websocket configuration
-websocket_domain: <changeme>
+websocket_domain: localhost
 websocket_port: 8765
 
 # Web server configuration
-server_domain: <changeme>
+server_domain: localhost
 server_port: 8765
 server_proxy_port: 8765
 server_interface: ""
